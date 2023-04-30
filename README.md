@@ -16,6 +16,7 @@ Please be aware:
 
 **!! THIS IS A WORK IN PROGRESS !!**
 
+- This is my very first repository on GitHub. Please be paitend with me :D - Any hints are welcome!
 - We will need to use one of the ADXL mounting threads
 - I designed it for main body without tool head sensor as I am planning to go with [Happy Hare](https://github.com/moggieuk/ERCF-Software-V3)
 - Based on the setup we will most probably not lose any build volume
