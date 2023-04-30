@@ -19,7 +19,7 @@ Please be aware:
 - This is my very first repository on GitHub. Please be paitend with me :D - Any hints are welcome!
 - We will need to use one of the ADXL mounting threads
 - I designed it for main body without tool head sensor as I am planning to go with [Happy Hare](https://github.com/moggieuk/ERCF-Software-V3)
-- Based on the setup we will most probably not lose any build volume
+- Depending on the setup and position of the cutting point we will most probably not lose any build volume
 - Currently the design is only available for the Dragon hotend
 - As my ERCF is under construction I tested it with roughly 100 cuts by hand not seeing any wear or fatigue
 - For the main body i remixed the ECAS version from [Alexanderor](https://www.printables.com/de/model/433797-clockwork-2-ecas-fitting-for-ercf)
