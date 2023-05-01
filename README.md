@@ -8,13 +8,17 @@ I was looking at the ERCF MMU for several month now. What always kept me from st
 
 ## See how it works
 
-Video...
+Proof of concept.
+
+https://youtube.com/shorts/HOMG8cVk_U4
 
 ## Good to know
 
 Please be aware:
 
 **!! THIS IS A WORK IN PROGRESS !!**
+
+** After my holiday trip I will mount the toolhead for another proof of concept in the printer. Once this is done I would appreciate if someone with an working ERCF unit could check it.**
 
 - This is my very first repository on GitHub. Please be paitend with me :D - Any hints are welcome!
 - We will need to use one of the ADXL mounting threads
