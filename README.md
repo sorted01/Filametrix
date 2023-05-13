@@ -32,7 +32,7 @@ Please be aware:
 ### Print list
 - 1x SB Dragon cutting Printhead back
 - 1x SB Dragon cutting Printhead front
-- 1x SB Main Buddy Cutting with ECAS
+- 1x SB Main body Cutting with ECAS
 - 1x Cutting arm
 - 1x Knife holder
 
@@ -56,4 +56,29 @@ Please be aware:
 - ...
 
 ## Assembly
-tbd...
+### Cutting arm
+#### Cut skalpel to length l=26mm
+![image](https://github.com/sorted01/Filametrix/assets/83211473/c17c3605-2184-4c45-986b-4da3b65add38)
+##### Result
+![image](https://github.com/sorted01/Filametrix/assets/83211473/62f5fb5d-31df-4c98-a9ee-5afadb0f73e9)
+#### Insert skalpel into knife holder
+Insert the skalpel (which is cut to 26mm) into the knife holder until you see it in the little hole. Use pliers to push it into the knife holder. Some force should be needed as the skalpel should stay in place due to the "pressfit". If that's not the case add some glue.(Depelding on skalpel tolerances)
+![image](https://github.com/sorted01/Filametrix/assets/83211473/b46f8143-e8a0-459e-af59-e8ae7ef47191)
+#### Put knife holder into cutting arm
+The M2.5x15 screw is directly screwed into the plastic of the knife holder. The tip of the screw should be flush with the cutting arm or no more than 0.1-0.3mm above it.
+Check the orientation of the hole for the M2.5 screw in the knife holder. It needs to be on the bottom side.
+
+**!! The knife holder must move up and down without friction in the cutting arm but shoult not have a lot play. Maybe some grinding is needed. !!**
+
+![image](https://github.com/sorted01/Filametrix/assets/83211473/bbaa3ada-9219-41d7-b9d6-3e1e33d68f22)
+![image](https://github.com/sorted01/Filametrix/assets/83211473/120f79e6-e4fa-4f14-8aaa-b15671ae2da4)
+
+
+
+
+### Add heat inserts
+#### Main body
+![image](https://github.com/sorted01/Filametrix/assets/83211473/8324c808-83cd-4b8d-a89a-45ca6b4836d8)
+#### SB cutting Printhead back
+![image](https://github.com/sorted01/Filametrix/assets/83211473/e7a5901d-e755-4ad7-a55a-b15f54218cdb)
+
