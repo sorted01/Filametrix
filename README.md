@@ -1,4 +1,4 @@
-# sorted's Filametrix Mod
+# Filametrix Mod
 This is a mod of the Voron Stealthburner which adds a filament cutting possibility!
 
 ![Image](https://user-images.githubusercontent.com/83211473/235375660-0192f0ec-643e-4637-aa77-7b43cf537856.png)
@@ -32,11 +32,17 @@ Please be aware:
 
 ## What you need
 ### Print list
+#### Toolhead
 - 1x SB Dragon cutting Printhead back
 - 1x SB Dragon cutting Printhead front
 - 1x SB Main body Cutting with ECAS
+- 1x SB latch ECAS
 - 1x Cutting arm
 - 1x Knife holder
+
+#### Cutting point on gantry
+- 2x 2020 25mm corner mount
+- tbd. I will design a small guide for the M3x40 Screw (works without as well)
 
 ### Parts list - considering you already have a Stealthburner with Dragon Hotend
 
@@ -54,8 +60,11 @@ Please be aware:
 - ![Image](https://user-images.githubusercontent.com/83211473/235373488-2253e51a-6892-4dc9-9b53-363d28b1faa8.png)
 
 #### Cutting point on gantry
-- tbd...
-- ...
+- 40mm 2020 Profile
+- 4x M5x10 BHCS
+- 4x M5 t-nuts/sliding nuts
+- 1x M3x40 SHCS
+- 1x M3 t-nut/sliding nut
 
 ## Assembly
 ### Cutting arm
