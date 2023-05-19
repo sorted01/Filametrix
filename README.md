@@ -21,11 +21,12 @@ I was looking at the ERCF MMU for several month now. What always kept me from st
 
 ## See how it works
 
-Proof of concept.
 
-https://youtube.com/shorts/HOMG8cVk_U4
+Proof of concept 1: https://youtube.com/shorts/HOMG8cVk_U4
 
-https://youtu.be/tTcrxttyths
+Proof of concept 2: https://youtu.be/tTcrxttyths
+
+Filametrix in action: https://www.youtube.com/watch?v=tfMZWQRqtvY
 
 ## Good to know
 
