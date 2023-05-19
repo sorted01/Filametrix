@@ -1,9 +1,13 @@
 # Filametrix Mod
 **!! READ FIRST !!**
-As we already discussed in several platforms about other extruder, hotends, variations etc. I've added the step files for remixing them.
-I would really be happy if you could share the files with me after you tested them sucessfully. I then would upload them within this repository. Of course I will always name the designer who contributed to the repository.
-The target would be to have the most common variations included here. (Sidenote: I am currently drafting on a HextrudORT design :D)
 
+```diff
+- As we already discussed in several platforms about other extruder, hotends, variations etc. 
+- I've added the step files for remixing them.
+- I would really be happy if you could share the files with me after you tested them sucessfully. 
+- I then would upload them within this repository. Of course I will always name the designer who contributed to the repository.
+- The target would be to have the most common variations included here. (Sidenote: I am currently drafting on a HextrudORT design :D)
+```
 
 This is a mod of the Voron Stealthburner which adds a filament cutting possibility!
 
