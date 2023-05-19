@@ -23,8 +23,6 @@ Please be aware:
 
 **!! THIS IS A WORK IN PROGRESS !!**
 
-**After my holiday trip I will mount the toolhead for another proof of concept in the printer. Once this is done I would appreciate if someone with an working ERCF unit could check it.**
-
 - This is my very first repository on GitHub. Please be paitend with me :D - Any hints are welcome!
 - We will need to use one of the ADXL mounting threads
 - I designed it for main body without tool head sensor as I am planning to go with [Happy Hare](https://github.com/moggieuk/ERCF-Software-V3)
@@ -96,3 +94,41 @@ Check the orientation of the hole for the M2.5 screw in the knife holder. It nee
 #### SB cutting Printhead back
 ![image](https://github.com/sorted01/Filametrix/assets/83211473/e7a5901d-e755-4ad7-a55a-b15f54218cdb)
 
+I need some time to finalize assembly instructions. If you have questions you'll find me in discord "sorted#8941"
+
+## Code
+
+**!! I AM OPEN FOR ANY SUGGESTIONS OF IMPROVEMENT TO THIS CODE !!**
+
+I use [Happy Hare](https://github.com/moggieuk/ERCF-Software-V3) with my ERCF. So I only tested it with this code. On your running ERCF config you'll need to modify the "_ERCF_FORM_TIP_STANDALONE" macro in your "ercf_software.cfg"
+
+
+As I am still testing I am really open for improvements of the Code. As I have no drag chain due to canbus the best position for me was in the back of my printer. If you use a drag chain you maybe need to adjust the gcode below to avoid any collision with your drag chain.
+
+In the Machine start g-Code you need to add this (i a separate line)
+```
+ERCF_CHANGE_TOOL TOOL={initial_tool} STANDALONE=1 
+```
+
+### Modification of "ercf_software.cfg"
+We will use the STANDALONE=1 mode and repleace the tip forming macro. So set the 
+```
+variable_standalone = 1 # 0 slicer, 1 Happy Hare macro (turn off in slicer)
+```
+Adjustment of the Tip Forming macro
+```
+########################################################################
+# Standalone Tip Forming (for rapid tuning of Slicer values)
+########################################################################
+[gcode_macro _ERCF_FORM_TIP_STANDALONE]
+gcode:
+    G92 E0
+    G1 E-35 F3000         #Retraced before the cut based on your hotend. This is working for Dragon HF
+    G1 X50 Y357 F5000     #Start position for the cutting procedure based on your position of the cutting point
+    G1 X0 Y357 F2000      #Cut position for the cutting procedure based on your position of the cutting point
+    G1 X50 Y357 F7000     #Return to starting point of cutting procedure
+    G92 E0
+    G1 E-80 F3000         #Retract filament out of your extruder. Based on your setup
+    G92 E0
+    G90
+```
