@@ -1,13 +1,15 @@
-# Filametrix Mod
-**!! READ FIRST !!**
+## Update
+### Main Body
+- SB_CW2_Main_Body_Cutting_with_2xD2F_ECAS
+- SB_CW2_Main_Body_Cutting_with_D2F_ECAS
 
-```diff
-- As we already discussed in several platforms about other extruder, hotends, variations etc. 
-- I've added the step files for remixing them.
-- I would really be happy if you could share the files with me after you tested them sucessfully. 
-- I then would upload them within this repository. Of course I will always name the designer who contributed to the repository.
-- The target would be to have the most common variations included here. (Sidenote: I am currently drafting on a HextrudORT design :D)
-```
+### Printhead
+#### Update for Bambu Hotend has been added
+- SB_Bambu_cutting_Printhead_back
+- SB_Bambu_cutting_Printhead_front or SB_Bambu_cutting_Printhead_front_2
+- Bambu_Adapter
+
+has been added. Thanks to "Jakub Kadlec" from Facebook :) 
 
 This is a mod of the Voron Stealthburner which adds a filament cutting possibility!
 
