@@ -1,22 +1,22 @@
-## Update
-### Main Body
-- SB_CW2_Main_Body_Cutting_with_2xD2F_ECAS
-- SB_CW2_Main_Body_Cutting_with_D2F_ECAS
-
-### Printhead
-#### Update for Bambu Hotend has been added
-- SB_Bambu_cutting_Printhead_back
-- SB_Bambu_cutting_Printhead_front or SB_Bambu_cutting_Printhead_front_2
-- Bambu_Adapter
-
-has been added. Thanks to "Jakub Kadlec" from Facebook :) 
-
+# Filametrix Mod
 This is a mod of the Voron Stealthburner which adds a filament cutting possibility!
 
 ![Image](https://user-images.githubusercontent.com/83211473/235375660-0192f0ec-643e-4637-aa77-7b43cf537856.png)
 ![image](https://github.com/sorted01/Filametrix/assets/83211473/0ce0be5b-109b-4fe7-905f-fe22846c1f3a)
 
+## Update
+### Main Body
+#### Main Body with Filamentsensor Option has been added.
+- SB_CW2_Main_Body_Cutting_with_2xD2F_ECAS
+- SB_CW2_Main_Body_Cutting_with_D2F_ECAS
 
+### Printhead
+#### Update for Bambu Hotend has been added.
+- SB_Bambu_cutting_Printhead_back
+- SB_Bambu_cutting_Printhead_front or SB_Bambu_cutting_Printhead_front_2
+- Bambu_Adapter
+
+Thanks to "Jakub Kadlec" from Facebook :) 
 
 ## Motivation
 I was looking at the ERCF MMU for several month now. What always kept me from starting the project were the discussions about issues and problems with  filament tip forming. Suddenly a new company showed us how they do it quite reliable. They just cut the filament. Further motivated and inspired by the design of @pure100kim who has built the [ERCF_Filament_Cutting_MOD](https://github.com/pure100kim/ERCF_Filament_Cutting_MOD) I started to build my own version of it.
