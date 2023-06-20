@@ -9,7 +9,7 @@ This is a mod of the Voron Stealthburner which adds a filament cutting possibili
 #### Main Body with Filamentsensor Option has been added.
 - SB_CW2_Main_Body_Cutting_with_2xD2F_ECAS
 - SB_CW2_Main_Body_Cutting_with_D2F_ECAS
-- main_body_with_Cutter_EBB_SB_ECAS_and_sensor "CW2 main body for the ERCF w/ ECAs, bearing switch, and SB2209 Canbus mods"
+- SB_CS2_Main_Body_EBB_ECAS_D2F "CW2 main body for the ERCF w/ ECAs, bearing switch, and SB2209 Canbus mods"
 
 ### Printhead
 #### Update for Bambu Hotend has been added.
