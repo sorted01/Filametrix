@@ -125,6 +125,10 @@ I need some time to finalize assembly instructions. If you have questions you'll
 
 **!! I AM OPEN FOR ANY SUGGESTIONS OF IMPROVEMENT TO THIS CODE !!**
 
+[thisiscam](https://github.com/thisiscam) has created the ercf_additional.cfg which, once you include it in your printer.cfg should do the work and the modification of the ercf_software.cfg listed below is no longer needed. As I am currently rebuilding my ERCF this is untested by me and thisiscam already announced an update :) 
+
+-> For know I will leave the code below as information.
+
 I use [Happy Hare](https://github.com/moggieuk/ERCF-Software-V3) with my ERCF. So I only tested it with this code. On your running ERCF config you'll need to modify the "_ERCF_FORM_TIP_STANDALONE" macro in your "ercf_software.cfg"
 
 
