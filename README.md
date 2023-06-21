@@ -53,7 +53,6 @@ Please be aware:
 - This is my very first repository on GitHub. Please be paitend with me :D - Any hints are welcome!
 - We will need to use one of the ADXL mounting threads
 - Depending on the setup and position of the cutting point we will most probably not lose any build volume
-- Currently the design is only available for the Dragon hotend & Bambu hotend
 - For the main body i remixed the ECAS version from [Alexanderor](https://www.printables.com/de/model/433797-clockwork-2-ecas-fitting-for-ercf)
 
 ## What you need
