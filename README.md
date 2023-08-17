@@ -66,8 +66,8 @@ Please be aware:
 - 1x Knife holder
 
 #### Cutting point on gantry
-- 2x 2020 25mm corner mount
-- tbd. I will design a small guide for the M3x40 Screw (works without as well)
+- 1x depressor mount
+- 1x depressor
 
 ### Parts list - considering you already have a Stealthburner with Dragon Hotend
 
@@ -85,11 +85,11 @@ Please be aware:
 - ![Image](https://user-images.githubusercontent.com/83211473/235373488-2253e51a-6892-4dc9-9b53-363d28b1faa8.png)
 
 #### Cutting point on gantry
-- 40mm 2020 Profile
-- 4x M5x10 BHCS
-- 4x M5 t-nuts/sliding nuts
-- 1x M3x40 SHCS
-- 1x M3 t-nut/sliding nut
+- 1x M3x16 BHCS
+- 1x M3 nut
+- 1x M3x8 FHCS
+- 2x M3 SHCS (Lengths: 6mm - no backers, 10mm - titanium backers, 12mm - MGN9 rails)
+- 2x Voron heat inserts
 
 ## Assembly
 ### Cutting arm
@@ -117,6 +117,12 @@ Check the orientation of the hole for the M2.5 screw in the knife holder. It nee
 ![image](https://github.com/sorted01/Filametrix/assets/83211473/8324c808-83cd-4b8d-a89a-45ca6b4836d8)
 #### SB cutting Printhead back
 ![image](https://github.com/sorted01/Filametrix/assets/83211473/e7a5901d-e755-4ad7-a55a-b15f54218cdb)
+#### Depressor - one on either end, end with ribs should be flush with surface below ribs with no plastic sticking up past surface
+![image](https://github.com/juliusjj25/Filametrix/assets/118471600/652e0256-451f-44c3-a2ec-b7ecb967395c)
+
+#### Finished cutting point assembly should look like this
+Note: for titanium backers, the backer should be centered between belt clamps and the end of the depressor mount should be flush with the end of the backer. This will work for all backers with 10/20/40mm spacing with the furthest back hole 5-15mm from the end. Height of depressor should be adjusted to press in the depression on the cutting arm and the BHCS can be adjusted in and out for the right positioning and locked in place with the M3 nut.
+![261054978-7247e729-06e5-4cba-a8ad-aafa2b9bd7a1](https://github.com/juliusjj25/Filametrix/assets/118471600/d08debd0-4a2d-4288-916e-c076feb9d45b)
 
 I need some time to finalize assembly instructions. If you have questions you'll find me in discord "sorted#8941"
 
