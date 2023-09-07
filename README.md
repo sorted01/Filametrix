@@ -16,6 +16,7 @@ This is a mod of the Voron Stealthburner which adds a filament cutting possibili
 
 ### Printhead
 #### Update for Bambu Hotend has been added.
+#### Known Issue: It seems that the parts are separated. As i did not design them I cannot update them. Sorry!
 - SB_Bambu_cutting_Printhead_back
 - SB_Bambu_cutting_Printhead_front or SB_Bambu_cutting_Printhead_front_2
 - Bambu_Adapter
@@ -64,6 +65,7 @@ Please be aware:
 - 1x SB (hotend name) cutting Printhead back
 - 1x SB (hotend name) cutting Printhead front
 - 1x SB Main body Cutting with ECAS (or with sensor)
+- 1x SB motor plate (as Stealthburner has seen a small update the newest plate does not fit anymore. So please use the one from this git)
 - 1x SB latch ECAS
 - 1x Cutting arm
 - 1x Knife holder
