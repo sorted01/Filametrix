@@ -1,4 +1,7 @@
 # Filametrix Mod
+# Important
+As the Stealthburner has been revised the "motor plate" doesn't fit anymore. I've uploaded the motor plate you need to use for filametrix.
+
 This is a mod of the Voron Stealthburner which adds a filament cutting possibility!
 
 ![Image](https://user-images.githubusercontent.com/83211473/235375660-0192f0ec-643e-4637-aa77-7b43cf537856.png)
