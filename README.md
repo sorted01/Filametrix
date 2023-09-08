@@ -14,6 +14,12 @@ This is a mod of the Voron Stealthburner which adds a filament cutting possibili
 - SB_CW2_Main_Body_Cutting_with_D2F_ECAS
 - SB_CS2_Main_Body_EBB_ECAS_D2F "CW2 main body for the ERCF w/ ECAs, bearing switch, and SB2209 Canbus mods" Thanks to [juliusjj25](https://github.com/juliusjj25)
 
+#### Support for LGX Lite
+https://www.printables.com/de/model/576122-lgx-lite-stealthburner-filament-cutter
+
+tommorox234 has created the main body for the LGX Lite. Feel free to get in contact with him via printables.
+Thank you :)
+
 ### Printhead
 #### Update for Bambu Hotend has been added.
 #### Known Issue: It seems that the parts are separated. As i did not design them I cannot update them. Sorry!
