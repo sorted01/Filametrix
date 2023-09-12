@@ -133,9 +133,11 @@ I need some time to finalize assembly instructions. If you have questions you'll
 
 ## Code
 
+***The code only works with https://github.com/moggieuk/Happy-Hare** If you haven't updated yet you really should.
+
 Copy mmu_additional.cfg to your printer config directory mmu/base/ and include it in your printer.cfg below all of the mmu includes via [include mmu/base/mmu_additional.cfg]
 
-You will need to adjust the parameters in mmu_addtional as well like setting up your cutter location, speeds, etc. More information in the cfg file itself.
+You will need to adjust the parameters in mmu_addtional as well, like setting up your cutter location, speeds, etc. More information in the cfg file itself.
 
 
 
