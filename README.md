@@ -118,6 +118,8 @@ Check the orientation of the hole for the M2.5 screw in the knife holder. It nee
 
 
 ### Add heat inserts
+
+Tip here for the heat set that goes above the cutter I would suggest drilling the threads out with a ~2.5mm drill bit. On the hotend holder side below the cutter make sure you flare out the PTFE tube to help guide the filament.
 #### Main body
 ![image](https://github.com/sorted01/Filametrix/assets/83211473/8324c808-83cd-4b8d-a89a-45ca6b4836d8)
 #### SB cutting Printhead back
