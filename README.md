@@ -1,4 +1,6 @@
 # Filametrix Mod
+![image](https://github.com/sorted01/Filametrix/assets/83211473/e81932d6-eaea-4e42-b224-81416cab5d39)
+
 
 This is a mod of the Voron Stealthburner which adds a filament cutting possibility!
 
