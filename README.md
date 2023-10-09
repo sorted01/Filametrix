@@ -136,7 +136,7 @@ I need some time to finalize assembly instructions. If you have questions you'll
 
 ## Code
 
-***The code only works with https://github.com/moggieuk/Happy-Hare** If you haven't updated yet you really should.
+**The code only works with https://github.com/moggieuk/Happy-Hare** If you haven't updated yet you really should.
 
 Latest version provided by [thisiscam](https://github.com/thisiscam)
 
@@ -146,15 +146,21 @@ Copy additional.cfg to your printer config directory and include it in your prin
 
 
 
-In mmu_parameters.cfg:
+### In mmu_parameters.cfg:
 set form_tip_macro: _MMU_CUT_TIP
+
 set toolhead_extruder_to_nozzle and toolhead_sensor_to_nozzle to corresponding measured values of your toolhead.
+
 set force_form_tip_standalone: 1
 
-In additonal.cfg
+### In additonal.cfg
 You will need to adjust the parameters in addtional as well, like setting up your cutter location, speeds, etc. More information in the cfg file itself.
 set variable_output_park_pos: ... to the distance from the nozzle tip to the blade
+
+#### Servo
 If you are using a gantry servo, remove the hashtags related to "gantry_servo"s in this file.
+
+#### Optional Next location
 The _MMU_CUT_TIP now has an option to move to a "next location" immediately after making the cut. For instance,  set it to the purge tower's location from the slicer. The _SET_LOC_AFTER_TOOLCHANGE sets this location, and the _MMU_CUT_TIP macro will be responsible for traveling immediately after the cut but prior to the unload. See the orcaslicer's toolchange gcode two messages down as an example. If you don't plan to use it, it's safe to ignore this point.
 ![image](https://github.com/sorted01/Filametrix/assets/83211473/7356e881-aa94-4ef5-a443-2704a1233318)
 
