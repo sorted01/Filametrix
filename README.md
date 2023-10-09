@@ -1,13 +1,10 @@
 # Filametrix Mod
-# Important
-As the Stealthburner has been revised the "motor plate" doesn't fit anymore. I've uploaded the motor plate you need to use for filametrix.
 
 This is a mod of the Voron Stealthburner which adds a filament cutting possibility!
 
 ![Image](https://user-images.githubusercontent.com/83211473/235375660-0192f0ec-643e-4637-aa77-7b43cf537856.png)
 ![image](https://github.com/sorted01/Filametrix/assets/83211473/0ce0be5b-109b-4fe7-905f-fe22846c1f3a)
 
-## Update
 ### Main Body
 #### Main Body with Filamentsensor Option has been added.
 - SB_CW2_Main_Body_Cutting_with_2xD2F_ECAS
@@ -22,7 +19,6 @@ Thank you :)
 
 ### Printhead
 #### Update for Bambu Hotend has been added.
-#### Known Issue: It seems that the parts are separated. As i did not design them I cannot update them. Sorry!
 - SB_Bambu_cutting_Printhead_back
 - SB_Bambu_cutting_Printhead_front or SB_Bambu_cutting_Printhead_front_2
 - Bambu_Adapter
@@ -57,10 +53,6 @@ Filametrix in action: https://www.youtube.com/watch?v=tfMZWQRqtvY
 ## Good to know
 
 Please be aware:
-
-**!! THIS IS A WORK IN PROGRESS !!**
-
-- This is my very first repository on GitHub. Please be paitend with me :D - Any hints are welcome!
 - We will need to use one of the ADXL mounting threads
 - Depending on the setup and position of the cutting point we will most probably not lose any build volume
 - For the main body i remixed the ECAS version from [Alexanderor](https://www.printables.com/de/model/433797-clockwork-2-ecas-fitting-for-ercf)
@@ -79,6 +71,9 @@ Please be aware:
 #### Cutting point on gantry
 - 1x depressor mount
 - 1x depressor
+
+#### Cutting point on gantry with servo
+- tbd...
 
 ### Parts list - considering you already have a Stealthburner with Dragon Hotend
 
