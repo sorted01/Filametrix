@@ -144,9 +144,10 @@ I need some time to finalize assembly instructions. If you have questions you'll
 ***The code only works with https://github.com/moggieuk/Happy-Hare** If you haven't updated yet you really should.
 
 Latest version provided by [thisiscam](https://github.com/thisiscam)
+
 I added the option to push the filament tip back into the hotend
 
-Copy additional.cfg to your printer config directory mmu/base/ and include it in your printer.cfg below all of the mmu includes via [include additional.cfg]
+Copy additional.cfg to your printer config directory and include it in your printer.cfg below all of the mmu includes via [include additional.cfg]
 
 
 
