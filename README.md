@@ -167,6 +167,13 @@ set variable_output_park_pos: ... to the distance from the nozzle tip to the bla
 #### Servo
 If you are using a gantry servo, remove the hashtags related to "gantry_servo"s in this file.
 
+# If you want to support me
+
+[![paypal](https://github.com/aha999/DonateButtons/raw/master/paypal-donate-icon-7.png)](https://www.paypal.com/paypalme/sorted01)
+
+
+
+
 #### Optional Next location
 The _MMU_CUT_TIP now has an option to move to a "next location" immediately after making the cut. For instance,  set it to the purge tower's location from the slicer. The _SET_LOC_AFTER_TOOLCHANGE sets this location, and the _MMU_CUT_TIP macro will be responsible for traveling immediately after the cut but prior to the unload. See the orcaslicer's toolchange gcode two messages down as an example. If you don't plan to use it, it's safe to ignore this point.
 ![image](https://github.com/sorted01/Filametrix/assets/83211473/7356e881-aa94-4ef5-a443-2704a1233318)
