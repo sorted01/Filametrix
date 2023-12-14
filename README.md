@@ -20,6 +20,13 @@ tommorox234 has created the main body for the LGX Lite. Feel free to get in cont
 Thank you :)
 
 ### Printhead
+#### Update for Phaetus Dragon UHF and Phaetus Dragon UHF mini
+- SB_Dragon_UHF_cutting_TH_Front or SB_Dragon_UHF_mini_cutting_TH_Front
+- SB_Dragon_UHF_cutting_TH_Rear or SB_Dragon_UHF_mini_cutting_TH_Rear
+- Knife_holder_Dragon_UHF
+
+by [emjay276](https://github.com/emjay276)
+
 #### Update for Bambu Hotend has been added.
 - SB_Bambu_cutting_Printhead_back
 - SB_Bambu_cutting_Printhead_front or SB_Bambu_cutting_Printhead_front_2
