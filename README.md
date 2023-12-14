@@ -14,7 +14,10 @@ This is a mod of the Voron Stealthburner which adds a filament cutting possibili
 - SB_CS2_Main_Body_EBB_ECAS_D2F "CW2 main body for the ERCF w/ ECAs, bearing switch, and SB2209 Canbus mods" Thanks to [juliusjj25](https://github.com/juliusjj25)
 
 #### Main Body for new motor plate of Clockwork2
-Adapting to recent changes in the Clockwork2 design (July 2023). 
+Adapting to recent changes in the Clockwork2 design (July 2023) - Left new / Right old
+![grafik](https://github.com/sorted01/Filametrix/assets/8619525/0803b39f-a8e8-4a43-bcdb-fb1c0c9b8995)
+
+A step with file the material removed of the motor plate is available here [Cutoff new motor plate](https://github.com/sorted01/Filametrix/blob/main/CAD/SB_CW2_cutoff_new_motor_plate.stp)
 
 *Not all main bodys are converted yet. Use the old [motor plate](https://github.com/sorted01/Filametrix/blob/main/STL/motor_plate.stl) if your main body is not listed below.*
 
