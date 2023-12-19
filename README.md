@@ -36,6 +36,11 @@ https://www.printables.com/de/model/576122-lgx-lite-stealthburner-filament-cutte
 tommorox234 has created the main body for the LGX Lite. Feel free to get in contact with him via printables.
 Thank you :)
 
+#### Support for StealthOrbiter
+- ORBITERMOUNT_STANDARD_PG7_V2_Cutting
+
+by [emjay276](https://github.com/emjay276)
+
 ### Printhead
 #### Update for Phaetus Dragon UHF and Phaetus Dragon UHF mini
 - SB_Dragon_UHF_cutting_TH_Front or SB_Dragon_UHF_mini_cutting_TH_Front
