@@ -17,15 +17,18 @@ This is a mod of the Voron Stealthburner which adds a filament cutting possibili
 Adapting to recent changes in the Clockwork2 design (July 2023) - Left new / Right old
 ![grafik](https://github.com/sorted01/Filametrix/assets/8619525/0803b39f-a8e8-4a43-bcdb-fb1c0c9b8995)
 
-A step with file the material removed of the motor plate is available here [Cutoff new motor plate](https://github.com/sorted01/Filametrix/blob/main/CAD/CW2_new_motor_plate/SB_CW2_cutoff_new_motor_plate.stp)
+A step with file the material removed of the motor plate is available here [Cutoff new motor plate](https://github.com/sorted01/Filametrix/blob/main/CAD/CW2_old_motor_plate/SB_CW2_cutoff_new_motor_plate.stp and https://github.com/sorted01/Filametrix/blob/main/CAD/CW2_old_motor_plate/SB_CW2_cutoff_new_motor_plate_with_offset.stp and )
 
-*Not all main bodys are converted yet. Use the old [motor plate](https://github.com/sorted01/Filametrix/blob/main/STL/motor_plate.stl) if your main body is not listed below.*
+*If your main body is not listed below, use the old [motor plate](https://github.com/sorted01/Filametrix/blob/main/STL/motor_plate.stl)*
 
 A more compact version using a M6 bowden fitting instead of the ECAS is also available for some main bodys. 
 Additonally, a more rigid [latch](https://github.com/sorted01/Filametrix/blob/main/STL/[a]_latch_M6.stl) is available for the M6 version. (ECAS version of the latch is compatible with all M6 main bodys.)
 
 * ECAS mount
 	- SB_CW2_new_motor_plate_Main_Buddy_Cutting_with_ECAS
+	- SB_CW2_new_motor_Main_Buddy_Cutting_with_2xD2F_ECAS_fix_Rev1
+	- SB_CW2_new_motor_Main_Buddy_Cutting_with_D2F_ECAS
+	- SB_CS2_new_motor_plate_Main_Buddy_EBB_ECAS_D2F
 
 * M6 bowden mount
 	- SB_CW2_new_motor_plate_Main_Buddy_Cutting_with_M6
