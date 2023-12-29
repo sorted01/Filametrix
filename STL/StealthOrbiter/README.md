@@ -8,7 +8,7 @@ Cutting remix by SaltyPaws using latest from https://github.com/sneakytreesnake/
 
 **ORBITERMOUNT_STANDARD_No_Cover_V3_Cutting v1.stl**
 
-Cutting remix by SaltyPaws as above, but removing the cover mounting slot, for those who prefer to run without covering their Orbiter2.0
+Cutting remix by SaltyPaws as above, but removing the cover mounting slot, for those who prefer to run without covering their Orbiter2.0.
 
 **ORBITERMOUNT_STANDARD_No_Cover_Sensor_V3_Cutting v1.stl**
 
