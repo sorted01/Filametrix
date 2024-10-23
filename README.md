@@ -47,6 +47,8 @@ by [emjay276](https://github.com/emjay276)
 - SB_Dragon_UHF_cutting_TH_Rear or SB_Dragon_UHF_mini_cutting_TH_Rear
 - Knife_holder_Dragon_UHF
 
+When using the UHF (non mini) version you will also need an adapted Stealthburner faceplate, which can be found [here](https://github.com/EmJay276/VoronUsers/blob/dragon_UHF/printer_mods/EmJay276/stealthburner_dragon_UHF_toolhead/STL/UHF/%5Ba%5D_Stealthburner_Body_Dragon_UHF.stl)
+
 by [emjay276](https://github.com/emjay276)
 
 #### Update for Bambu Hotend has been added.
