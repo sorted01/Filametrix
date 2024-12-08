@@ -74,6 +74,12 @@ https://www.printables.com/de/model/614813-filametrix-mod-for-slice-engingeering
 
 say thank you to "https://www.printables.com/de/@MakeAUsername_285162"
 
+#### Update for Revo Micro
+- SB_RevoMicro_back
+- SB_RevoMicro_front
+
+by Leif Lang - NOTE: Remixed from the Official Stealthburner and the remixed version for the Revo Voron by Russel Gower
+
 ## Motivation
 I was looking at the ERCF MMU for several month now. What always kept me from starting the project were the discussions about issues and problems with  filament tip forming. Suddenly a new company showed us how they do it quite reliable. They just cut the filament. Further motivated and inspired by the design of @pure100kim who has built the [ERCF_Filament_Cutting_MOD](https://github.com/pure100kim/ERCF_Filament_Cutting_MOD) I started to build my own version of it.
 
