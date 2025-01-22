@@ -7,72 +7,6 @@ This is a mod of the Voron Stealthburner which adds a filament cutting possibili
 ![Image](https://user-images.githubusercontent.com/83211473/235375660-0192f0ec-643e-4637-aa77-7b43cf537856.png)
 ![image](https://github.com/sorted01/Filametrix/assets/83211473/0ce0be5b-109b-4fe7-905f-fe22846c1f3a)
 
-### Main Body
-#### Main Body for old motor plate of Clockwork2
-- SB_CW2_Main_Body_Cutting_with_2xD2F_ECAS
-- SB_CW2_Main_Body_Cutting_with_D2F_ECAS
-- SB_CS2_Main_Body_EBB_ECAS_D2F "CW2 main body for the ERCF w/ ECAs, bearing switch, and SB2209 Canbus mods" Thanks to [juliusjj25](https://github.com/juliusjj25)
-
-#### Main Body for new motor plate of Clockwork2
-Adapting to recent changes in the Clockwork2 design (July 2023) - Left new / Right old
-![grafik](https://github.com/sorted01/Filametrix/assets/8619525/0803b39f-a8e8-4a43-bcdb-fb1c0c9b8995)
-
-A step with file the material removed of the motor plate is available here [Cutoff new motor plate](https://github.com/sorted01/Filametrix/blob/main/CAD/CW2_new_motor_plate/SB_CW2_cutoff_new_motor_plate.stp)
-
-*Not all main bodys are converted yet. Use the old [motor plate](https://github.com/sorted01/Filametrix/blob/main/STL/motor_plate.stl) if your main body is not listed below.*
-
-A more compact version using a M6 bowden fitting instead of the ECAS is also available for some main bodys. 
-Additonally, a more rigid [latch](https://github.com/sorted01/Filametrix/blob/main/STL/[a]_latch_M6.stl) is available for the M6 version. (ECAS version of the latch is compatible with all M6 main bodys.)
-
-* ECAS mount
-	- SB_CW2_new_motor_plate_Main_Buddy_Cutting_with_ECAS
-
-* M6 bowden mount
-	- SB_CW2_new_motor_plate_Main_Buddy_Cutting_with_M6
-
-#### Support for LGX Lite
-https://www.printables.com/de/model/576122-lgx-lite-stealthburner-filament-cutter
-
-tommorox234 has created the main body for the LGX Lite. Feel free to get in contact with him via printables.
-Thank you :)
-
-#### Support for StealthOrbiter
-- ORBITERMOUNT_STANDARD_PG7_V2_Cutting
-
-by [emjay276](https://github.com/emjay276)
-
-### Printhead
-#### Update for Phaetus Dragon UHF and Phaetus Dragon UHF mini
-- SB_Dragon_UHF_cutting_TH_Front or SB_Dragon_UHF_mini_cutting_TH_Front
-- SB_Dragon_UHF_cutting_TH_Rear or SB_Dragon_UHF_mini_cutting_TH_Rear
-- Knife_holder_Dragon_UHF
-
-by [emjay276](https://github.com/emjay276)
-
-#### Update for Bambu Hotend has been added.
-- SB_Bambu_cutting_Printhead_back
-- SB_Bambu_cutting_Printhead_front or SB_Bambu_cutting_Printhead_front_2
-- Bambu_Adapter
-
-Thanks to "Jakub Kadlec" from Facebook :) 
-
-#### Update for Voron Revo Hotend 
-- SB_RevoVoron_back
-- SB_RevoVoron_front
-
-by Russell Gower - NOTE currently untested!!
-
-#### Update for Rapido Hotend
-
-- see folder
-
-say thank you to [juliusjj25](https://github.com/juliusjj25)  :) 
-
-#### Update for Slice engingeering mosquito hotend
-
-https://www.printables.com/de/model/614813-filametrix-mod-for-slice-engingeering-mosquito-hot
-
-say thank you to "https://www.printables.com/de/@MakeAUsername_285162"
 
 #### Update for Revo Micro
 - SB_RevoMicro_back
@@ -84,8 +18,6 @@ by Leif Lang - NOTE: Remixed from the Official Stealthburner and the remixed ver
 I was looking at the ERCF MMU for several month now. What always kept me from starting the project were the discussions about issues and problems with  filament tip forming. Suddenly a new company showed us how they do it quite reliable. They just cut the filament. Further motivated and inspired by the design of @pure100kim who has built the [ERCF_Filament_Cutting_MOD](https://github.com/pure100kim/ERCF_Filament_Cutting_MOD) I started to build my own version of it.
 
 ## See how it works
-
-
 Proof of concept 1: https://youtube.com/shorts/HOMG8cVk_U4
 
 Proof of concept 2: https://youtu.be/tTcrxttyths
@@ -93,20 +25,95 @@ Proof of concept 2: https://youtu.be/tTcrxttyths
 Filametrix in action: https://www.youtube.com/watch?v=tfMZWQRqtvY
 
 ## Good to know
-
 Please be aware:
 - We will need to use one of the ADXL mounting threads
 - Depending on the setup and position of the cutting point we will most probably not lose any build volume
 - For the main body i remixed the ECAS version from [Alexanderor](https://www.printables.com/de/model/433797-clockwork-2-ecas-fitting-for-ercf)
+
+## Extruder and Printhead options
+### Extruder
+#### Clockwork2 Extruder
+Due to recent changes in the Clockwork2 design (July 2023) two motor plates exist, please check carefully which version you are using and print the corresponding main body.
+<img src="https://github.com/sorted01/Filametrix/assets/8619525/58c7e930-77d1-4c09-8238-f49af9075681" alt="front_uhf" width="800"/>
+
+STEP / STL files with the material removed for the new version of the motor plate are also available here 
+- [Cutoff new motor plate.stp](CAD/CW2_old_motor_plate/SB_CW2_cutoff_new_motor_plate.stp)
+- [Cutoff new motor plate with offset.stp](CAD/CW2_old_motor_plate/SB_CW2_cutoff_new_motor_plate_with_offset.stp)
+- [Cutoff new motor plate with offset.stl](STL/CW2_old_motor_plate/SB_CW2_cutoff_new_motor_plate_with_offset.stl)
+
+##### Old motor plate
+- SB_CW2_Main_Body_Cutting_with_2xD2F_ECAS
+- SB_CW2_Main_Body_Cutting_with_D2F_ECAS
+- SB_CS2_Main_Body_EBB_ECAS_D2F "CW2 main body for the ERCF w/ ECAs, bearing switch, and SB2209 Canbus mods" Thanks to [juliusjj25](https://github.com/juliusjj25)
+
+The old motor plate can be found [here](STL/CW2_old_motor_plate/motor_plate.stl)
+
+##### New motor plate
+ECAS mount
+- SB_CW2_new_motor_plate_Main_Body_Cutting_with_ECAS
+- SB_CW2_new_motor_plate_Main_Body_Cutting_with_2xD2F_ECAS_fix_Rev1
+- SB_CW2_new_motor_plate_Main_Body_Cutting_with_D2F_ECAS
+- SB_CS2_new_motor_plate_Main_Body_EBB_ECAS_D2F
+
+M6 bowden mount
+- SB_CW2_new_motor_plate_Main_Body_Cutting_with_M6
+
+A more compact version using a M6 bowden fitting instead of the ECAS is also available for some main bodys. 
+Additonally, a more rigid [latch](STL/[a]_latch_M6.stl) is available for the M6 version. (ECAS version of the latch is compatible with all M6 main bodys.)
+
+#### LGX Lite Extruder
+https://www.printables.com/de/model/576122-lgx-lite-stealthburner-filament-cutter
+
+tommorox234 has created the main body for the LGX Lite. Feel free to get in contact with him via printables.
+Thank you :)
+
+#### StealthOrbiter
+- ORBITERMOUNT_STANDARD_PG7_V2_Cutting - NOTE currently untested!!
+
+by [emjay276](https://github.com/emjay276)
+
+
+### Printhead
+#### Phaetus Dragon UHF and Phaetus Dragon UHF mini
+- SB_Dragon_UHF_cutting_TH_Front or SB_Dragon_UHF_mini_cutting_TH_Front
+- SB_Dragon_UHF_cutting_TH_Rear or SB_Dragon_UHF_mini_cutting_TH_Rear
+- Knife_holder_Dragon_UHF
+
+by [emjay276](https://github.com/emjay276)
+
+#### Bambu Hotend
+- SB_Bambu_cutting_Printhead_back
+- SB_Bambu_cutting_Printhead_front or SB_Bambu_cutting_Printhead_front_2
+- Bambu_Adapter
+
+Thanks to "Jakub Kadlec" from Facebook :) 
+
+#### Voron Revo Hotend 
+- SB_RevoVoron_back
+- SB_RevoVoron_front
+
+by Russell Gower - NOTE currently untested!!
+
+#### Rapido Hotend
+- SBRapido TH Front_cutter
+- SBRapido TH Rear CW2_cutter
+
+say thank you to [juliusjj25](https://github.com/juliusjj25)  :) 
+
+#### Slice engingeering mosquito hotend
+
+https://www.printables.com/de/model/614813-filametrix-mod-for-slice-engingeering-mosquito-hot
+
+say thank you to "https://www.printables.com/de/@MakeAUsername_285162"
+
 
 ## What you need
 ### Print list
 #### Toolhead
 - 1x SB (hotend name) cutting Printhead back
 - 1x SB (hotend name) cutting Printhead front
-- 1x SB Main body Cutting with ECAS (or with sensor)
-- 1x SB motor plate (as Stealthburner has seen a small update the newest plate does not fit anymore. So please use the one from this git)
-- 1x SB latch ECAS
+- 1x SB Main body Cutting ECAS or M6 or with sensors
+- 1x SB latch ECAS or M6
 - 1x Cutting arm
 - 1x Knife holder
 
